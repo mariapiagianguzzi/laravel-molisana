@@ -1,11 +1,9 @@
-
-    @extends('layout.app')
+@extends('layout.app')
     @section('header')
         @include('layout.header')
     @endsection
 
     @section('content')
-        <h2>Home</h2>
+        <h2>Prodotti</h2>
         <p></p>
     @endsection
-
