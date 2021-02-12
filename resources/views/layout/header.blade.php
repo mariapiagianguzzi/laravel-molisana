@@ -1,7 +1,7 @@
            
     <header>
-       <div class="logo">
-           <img src="" alt="">
+       <div class="logo container">
+           <img src="./img/marchio-sito.png" alt="">
        </div>
            <nav>
              <a href="/">Home</a>
