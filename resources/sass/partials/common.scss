@@ -13,4 +13,7 @@
 }
 .col_3 {
     width: calc(100% / 3);
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
 }

@@ -6,11 +6,11 @@
 
 @section('content')      
 <main>
-    <h2>Le Lunghe</h2>
+    <h2>LE LUNGHE</h2>
     <div id="lunghe" class="container d-flex">
         @foreach($pasta as $value)
         @if($value['tipo'] === 'lunga')
-        <div class="col-3">
+        <div class="col-3 card">
             <div class="item">
                 <div class="overlay">
                     <div class="info">
@@ -24,11 +24,11 @@
         @endif
         @endforeach
     </div>
-    <h2>Le Corte</h2>
+    <h2>LE CORTE</h2>
     <div id="lunghe" class="container d-flex">
         @foreach($pasta as $value)
         @if($value['tipo'] === 'corta')
-        <div class="col-3">
+        <div class="col-3 card">
             <div class="item">
                 <div class="overlay">
                     <div class="info">
@@ -42,11 +42,11 @@
         @endif
         @endforeach
     </div>
-    <h2>Le Cortissime</h2>
+    <h2>LE CORTISSIME</h2>
     <div id="lunghe" class="container d-flex">
         @foreach($pasta as $value)
         @if($value['tipo'] === 'cortissima')
-        <div class="col-3">
+        <div class="col-3 card">
             <div class="item">
                 <div class="overlay">
                     <div class="info">

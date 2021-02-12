@@ -15,6 +15,9 @@
 
 .col_3 {
   width: calc(100% / 3);
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
 }
 
 header img {
@@ -32,6 +35,22 @@ header nav {
 header nav a {
   color: blue;
   text-decoration: none;
+  padding: 10px;
+}
+
+main {
+  background-image: url("/img/fondo-pag-speciali.jpg");
+  padding: 20px 0;
+}
+
+main h2 {
+  color: blue;
+  text-align: center;
+  margin-top: 10px;
+}
+
+main .col-3 img {
+  width: 100%;
   padding: 10px;
 }
 
