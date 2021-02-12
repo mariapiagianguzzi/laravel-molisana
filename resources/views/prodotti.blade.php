@@ -7,16 +7,16 @@
 @section('content')      
 <main>
     <h2>LE LUNGHE</h2>
-    <div id="lunghe" class="container d-flex">
+    <div id="lunghe" class="container">
         @foreach($pasta as $value)
         @if($value['tipo'] === 'lunga')
         <div class="col-3 card">
             <div class="item">
                 <div class="overlay">
-                    <div class="info">
+
                         <h5>{{ $value['titolo'] }}</h5>
-                        <img src="" alt="">
-                    </div>
+                        <img src="img/icon.svg" alt="">
+                    
                 </div>
                 <img src="{{ $value['src'] }}"  alt="">
             </div>
@@ -31,10 +31,10 @@
         <div class="col-3 card">
             <div class="item">
                 <div class="overlay">
-                    <div class="info">
+                    
                         <h5>{{ $value['titolo'] }}</h5>
-                        <img src="" alt="">
-                    </div>
+                        <img src="img/icon.svg" alt="">
+                    
                 </div>
                 <img src="{{ $value['src'] }}"  alt="">
             </div>
@@ -49,10 +49,10 @@
         <div class="col-3 card">
             <div class="item">
                 <div class="overlay">
-                    <div class="info">
+                    
                         <h5>{{ $value['titolo'] }}</h5>
-                        <img src="" alt="">
-                    </div>
+                        <img src="img/icon.svg" alt="">
+                    
                 </div>
                 <img src="{{ $value['src'] }}"  alt="">
             </div>

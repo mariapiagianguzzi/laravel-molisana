@@ -8,12 +8,12 @@
     display: flex;
 }
 .container {
-    width: 90%;
-    margin: 0 auto;
-}
-.col_3 {
-    width: calc(100% / 3);
+    width: 100%;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     flex-wrap: wrap;
+}
+.col-3 {
+    width: calc(100% / 3);
+    padding: 20px;
 }
